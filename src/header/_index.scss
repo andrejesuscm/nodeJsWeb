@@ -1,0 +1,87 @@
+.square-logo
+{
+  width: 100%;
+}
+
+.header-square
+{
+  background-color: #636363;
+  border-radius: 5px;
+}
+
+.square-after-logo
+{
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.menu-item:hover
+{
+  color: #ad1414;
+}
+
+.navigation-bar-collapse
+{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .icon-menu{
+    margin-right: 15px;
+    float: right;
+  }
+  .navigation-bar-collapse
+  {
+    position:absolute;
+    top:70px;
+    font-size:2em;
+    right: 0;
+    display: block;
+    width:100%;
+    z-index:9;
+  }
+  .navigation-bar
+  {
+    display: none;
+  }
+  .menu-navigation-bar
+  {
+    display: none;
+    top: 25px;
+    left:0;
+    width: 100%;
+    color:white;
+    position: absolute;
+    min-width: 160px;
+    border-radius:0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .navigation-button:hover .menu-navigation-bar
+  {
+    cursor:pointer;
+    display: block;
+  }
+  .menu-list
+  {
+    font-size:0.6em;
+  }
+  .menu-list:hover
+  {
+    font-size:0.7em;
+  }
+  .square-logo
+  {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+ .navigation-bar-collapse
+  {
+    top:30px;
+  }
+}

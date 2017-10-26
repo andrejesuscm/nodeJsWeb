@@ -1,0 +1,10 @@
+{
+    "header" : "./src/header/index.html",
+    "header" : "./src/sectionTwo/index.html",
+    "header" : "./src/sectionThree/index.html",
+    "header" : "./src/sectionFour/index.html",
+    "header" : "./src/sectionFive/index.html",
+    "header" : "./src/sectionSix/index.html",
+    "header" : "./src/sectionSeven/index.html",
+    "header" : "./src/sectionEight/index.html"
+}

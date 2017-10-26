@@ -1,0 +1,65 @@
+.border-contain
+{
+	position: relative;
+}
+.border-progress
+{
+	border-bottom: 1px solid #1f02bf;
+}
+
+
+.circle-progress
+{
+	cursor:pointer;
+	padding-top: 3px;
+	position: absolute;
+	top: -14px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid #1f02bf;
+	background-color: #ffffff;
+}
+
+.circle-completed
+{
+	padding-top:6px;
+	background-color: #1f02bf;
+	color:#ffffff;
+}
+
+
+.circle-active
+{
+	background-color: #2dad78;
+	color:#ffffff;
+	border:none;
+}
+
+.circle-progress-1
+{
+	left: 15px;
+}
+
+.circle-progress-2
+{
+	left: 20%;
+}
+
+.circle-progress-3
+{
+	left: 40%;
+}
+.circle-progress-4
+{
+	left: 60%;
+}
+.circle-progress-5
+{
+	left: 80%;
+}
+.circle-progress-6
+{
+
+	right: 15px;
+}
