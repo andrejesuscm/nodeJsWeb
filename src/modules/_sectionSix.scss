@@ -1,4 +1,4 @@
-.form-login
+.six--form-login
 {
 	width: 50%;
 	margin: auto;
@@ -6,22 +6,20 @@
 	padding:70px;
 }
 
-.form-elements
+.six--form-elements
 {
-	margin:auto;
 	width:100%;
 }
 
-.form-element-label
+.six--form-label
 {
 	font-size: 1.5em;
-}
-
-.form-element{
 	margin-bottom:15px;
 }
 
-.form-element-input{
+.six--form-input
+{
+	font-size: 1em;
 	width:100%;
 	border-radius:5px;
 	padding: 10px;
@@ -29,7 +27,7 @@
 }
 
 @media screen and (max-width: 990px) {
-	.form-login
+	.six--form-login
 	{
 		width: 80%;
 	}

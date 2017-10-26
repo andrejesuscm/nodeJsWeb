@@ -1,4 +1,4 @@
-.tip
+.four--tip
 {
 	width: 0px;
 	height: 0px;
@@ -8,7 +8,7 @@
 	z-index: -1;
 }
 
-.tip-left
+.four--tip-left
 {
 	border: 10px solid #ccc;
 	border-top-color: transparent;
@@ -17,7 +17,7 @@
 	left: -18px;
 }
 
-.tip-right
+.four--tip-right
 {
 	border: 10px solid #1f02bf;
 	border-top-color: transparent;
@@ -26,7 +26,7 @@
 	right: -18px;
 }
 
-.dialogbox
+.four--dialogbox
 {
 	position: relative;
 	width:50%;
@@ -37,13 +37,13 @@
 	border-radius: 3px;
 }
 
-.blue-dialog
+.four-blue-dialogbox
 {
 	background-color:#1f02bf;
 	color:#ffffff;
 }
 
-.image-dialog
+.four-image-dialog
 {
 	background-image: url("https://marketplace.canva.com/MAB79xYLTlo/1/thumbnail/canva-businessman-avatar-business-icon-MAB79xYLTlo.png");
 	background-position: center center;
@@ -55,19 +55,19 @@
 	top: -5px;
 }
 
-.image-left
+.four-image-left
 {
 	left: -52px;
 }
 
-.image-right
+.four-image-right
 {
 	right:-52px;
 }
 
 
 @media screen and (max-width: 768px) {
-	.dialogbox
+	.four--dialogbox
 	{
 		width:80%;
 	}

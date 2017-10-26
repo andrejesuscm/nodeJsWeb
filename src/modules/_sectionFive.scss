@@ -1,14 +1,14 @@
-.border-contain
+.five--contain
 {
 	position: relative;
 }
-.border-progress
+.five--progress
 {
 	border-bottom: 1px solid #1f02bf;
 }
 
 
-.circle-progress
+.five--circle-progress
 {
 	cursor:pointer;
 	padding-top: 3px;
@@ -21,44 +21,29 @@
 	background-color: #ffffff;
 }
 
-.circle-completed
-{
-	padding-top:6px;
-	background-color: #1f02bf;
-	color:#ffffff;
-}
-
-
-.circle-active
-{
-	background-color: #2dad78;
-	color:#ffffff;
-	border:none;
-}
-
-.circle-progress-1
+.five--circle-progress-1
 {
 	left: 15px;
 }
 
-.circle-progress-2
+.five--circle-progress-2
 {
 	left: 20%;
 }
 
-.circle-progress-3
+.five--circle-progress-3
 {
 	left: 40%;
 }
-.circle-progress-4
+.five--circle-progress-4
 {
 	left: 60%;
 }
-.circle-progress-5
+.five--circle-progress-5
 {
 	left: 80%;
 }
-.circle-progress-6
+.five--circle-progress-6
 {
 
 	right: 15px;

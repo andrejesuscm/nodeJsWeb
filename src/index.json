@@ -1,10 +1,10 @@
 {
-    "header" : "./src/header/index.html",
-    "header" : "./src/sectionTwo/index.html",
-    "header" : "./src/sectionThree/index.html",
-    "header" : "./src/sectionFour/index.html",
-    "header" : "./src/sectionFive/index.html",
-    "header" : "./src/sectionSix/index.html",
-    "header" : "./src/sectionSeven/index.html",
-    "header" : "./src/sectionEight/index.html"
+    "header" : "./src/sections/sectionOne.html",
+    "header" : "./src/sections/sectionTwo.html",
+    "header" : "./src/sections/sectionThree.html",
+    "header" : "./src/sections/sectionFour.html",
+    "header" : "./src/sections/sectionFive.html",
+    "header" : "./src/sections/sectionSix.html",
+    "header" : "./src/sections/sectionSeven.html",
+    "header" : "./src/sections/sectionEight.html"
 }

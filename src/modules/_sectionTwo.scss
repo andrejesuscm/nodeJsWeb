@@ -1,4 +1,4 @@
-.row-banner
+.two--container
 {
   background-image: url("https://vignette3.wikia.nocookie.net/prydain/images/e/eb/Green_valley.jpg/revision/latest?cb=20130324053834");
   background-position: center center;
@@ -9,7 +9,7 @@
   height: 500px;
 }
 
-.text-input-banner
+.two--input
 {
   position: absolute;
   top:25%;
@@ -17,19 +17,22 @@
   color: #ffffff;
 }
 
-.text-h5-banner{
+.two--h5
+{
   font-size:2em;
   color:#ffffff;
 }
 
-.text-p-banner
+.two--p
 {
   font-size:1.3em;
 }
-.input-banner{
+.two--input-contain
+{
   margin-top: 20px;
 }
-.input-search{
+.two--input-search
+{
   width:50%;
   height:30px;
   padding: 5px;
@@ -38,14 +41,8 @@
   color:#555555;
 }
 
-.overlay{
-  background-color: rgba(0,0,0,0.7);
-  position: absolute;
-  width: 100%;
-  height:100%;
-}
-
-.button-go-search{
+.two--go-search
+{
   width: 50px;
   position:absolute;
 }

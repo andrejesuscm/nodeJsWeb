@@ -1,8 +1,8 @@
-.pagination-page
+.seven--container
 {
 	margin-left: 38%;
 }
-.pagination-contain
+.seven--item-contain
 {
     display: inline-block;
     margin: auto;
@@ -10,7 +10,7 @@
     border-radius: 4px;
 }
 
-.item-pagination
+.seven--item-items
 {
     color: black;
     float: left;
@@ -19,16 +19,8 @@
     transition: background-color .3s;
 }
 
-.pagination-contain .active
-{
-    background-color: #2dad78;
-    color: white;
-}
-
-.item-pagination:hover:not(.active) {background-color: #ddd;}
-
 @media screen and (max-width: 540px) {
-   .pagination-page
+   .seven--container
    {
     margin-left: 0;
     }

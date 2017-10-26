@@ -1,0 +1,23 @@
+.is-active
+{
+	background-color: #2dad78;
+	color:#ffffff;
+	border:none;
+}
+
+.is-completed
+{
+	padding-top:6px;
+	background-color: #1f02bf;
+	color:#ffffff;
+}
+
+.item-hover:hover 
+{
+	color:#ffffff;
+	background-color: #ddd;
+}
+
+.is-disabled{
+    color:#eeeeee;
+}

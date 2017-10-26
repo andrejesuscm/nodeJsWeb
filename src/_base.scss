@@ -1,0 +1,39 @@
+@import "../node_modules/normalize-scss/sass/normalize/import-now";
+li
+{
+	list-style: none;
+	margin-top: 20px;
+}
+
+ul
+{
+	padding-left: 20px;
+}
+
+input
+{
+	border:none;
+}
+
+a
+{
+	color:inherit;
+}
+
+a:link,
+a:visited,
+a:active
+{
+	text-decoration: none;
+}
+
+button
+{
+	border:none;
+}
+
+h1, h2, h3,
+h4, h5, h6
+{
+	color:#555555;
+}

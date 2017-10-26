@@ -1,36 +1,37 @@
-.square-logo
+.one--logo-container
 {
   width: 100%;
 }
 
-.header-square
+.one--header
 {
   background-color: #636363;
   border-radius: 5px;
 }
 
-.square-after-logo
+.one--menu
 {
   cursor: pointer;
   margin-top: 50px;
 }
 
-.menu-item:hover
+.one--menu-item:hover
 {
   color: #ad1414;
 }
 
-.navigation-bar-collapse
+.one--menu-collapse
 {
   display: none;
 }
 
 @media screen and (max-width: 768px) {
-  .icon-menu{
+  .one--icon-menu
+  {
     margin-right: 15px;
     float: right;
   }
-  .navigation-bar-collapse
+  .one--menu-collapse
   {
     position:absolute;
     top:70px;
@@ -40,11 +41,11 @@
     width:100%;
     z-index:9;
   }
-  .navigation-bar
+  .one--full-menu
   {
     display: none;
   }
-  .menu-navigation-bar
+  .one--full-menu-collapse
   {
     display: none;
     top: 25px;
@@ -60,27 +61,27 @@
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
   }
-  .navigation-button:hover .menu-navigation-bar
+  .one--menu-button:hover .one--full-menu-collapse
   {
     cursor:pointer;
     display: block;
   }
-  .menu-list
+  .one--list
   {
     font-size:0.6em;
   }
-  .menu-list:hover
+  .one--list:hover
   {
     font-size:0.7em;
   }
-  .square-logo
+  .one--logo-container
   {
     width: 20%;
   }
 }
 
 @media screen and (max-width: 540px) {
- .navigation-bar-collapse
+ .one--menu-collapse
   {
     top:30px;
   }

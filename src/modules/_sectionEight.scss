@@ -1,5 +1,5 @@
-
-.container-checkbox {
+.eight--container-checkbox
+{
     display: block;
     position: relative;
     padding-left: 35px;
@@ -11,16 +11,16 @@
     font-weight: normal;
 }
 
-.disabled{
-    color:#eeeeee;
-}
 
-.container-checkbox-input {
+
+.eight--container-checkbox-input
+{
     position: absolute;
     opacity: 0;
 }
 
-.checkmark {
+.eight--container-checkmark
+{
     position: absolute;
     top: 0;
     left: 0;
@@ -30,27 +30,29 @@
 }
 
 
-.checkmark-radio
+.eight--container-checkmark-radio
 {
     border-radius: 50%;
 }
 
 
-.container-checkbox .container-checkbox-input:checked ~ .checkmark {
+.eight--container-checkbox .eight--container-checkbox-input:checked ~ .eight--container-checkmark
+{
     background-color: #2dad78;
 }
 
-.checkmark:after {
+.eight--container-checkmark:after {
     content: "";
     position: absolute;
     display: none;
 }
 
-.container-checkbox .container-checkbox-input:checked ~ .checkmark:after {
+.eight--container-checkbox .eight--container-checkbox-input:checked ~ .eight--container-checkmark:after
+{
     display: block;
 }
 
-.container-checkbox .checkmark:after {
+.eight--container-checkbox .eight--container-checkmark:after {
     left: 9px;
     top: 5px;
     width: 5px;
@@ -60,27 +62,27 @@
     transform: rotate(45deg);
 }
 
-.toggle-text
+.eight--toggle-text
 {
     width: 100%;
     font-size: 1em;
 }
 
-.toggle-settings
+.eight--toggle-settings
 {
     display: table-cell;
     vertical-align: middle;
     padding: 3px;
 }
 
-.toggle
+.eight--container-toggle
 {
     position: absolute;
     margin-left: -9999px;
     visibility: hidden;
 }
 
-.toggle-round + .label-toggle
+.eight--toggle-round + .eight--label-toggle
 {
     padding: 2px;
     width: 60px;
@@ -89,7 +91,7 @@
     border-radius: 3px;
 }
 
-.toggle + .label-toggle
+.eight--container-toggle + .eight--label-toggle
 {
     display: block;
     position: relative;
@@ -98,7 +100,7 @@
     user-select: none;
 }
 
-.toggle-round + .label-toggle:before, .toggle-round + .label-toggle:after
+.eight--toggle-round + .eight--label-toggle:before, .eight--toggle-round + .eight--label-toggle:after
 {
     display: block;
     position: absolute;
@@ -108,14 +110,15 @@
     content: "";
 }
 
-.toggle-round + .label-toggle:before {
+.eight--toggle-round + .eight--label-toggle:before {
     right: 1px;
     background-color: #ffffff;
     border-radius: 3px;
     transition: background 0.4s;
 }
 
-.toggle-round + .label-toggle:before, .toggle-round + .label-toggle:after {
+.eight--toggle-round + .eight--label-toggle:before, .eight--toggle-round + .eight--label-toggle:after
+{
     display: block;
     position: absolute;
     top: 1px;
@@ -124,7 +127,8 @@
     content: "";
 }
 
-.toggle-round + .label-toggle:after {
+.eight--toggle-round + .eight--label-toggle:after
+{
     width: 30px;
     background-color: #fff;
     border-radius: 50%;
@@ -132,10 +136,12 @@
     transition: margin 0.4s;
 }
 
-.toggle-round:checked + .label-toggle:before {
+.eight--toggle-round:checked + .eight--label-toggle:before
+{
     background-color: #2dad78;
 }
 
-.toggle-round:checked + .label-toggle:after {
+.eight--toggle-round:checked + .eight--label-toggle:after
+{
     margin-left: 27px;
 }
